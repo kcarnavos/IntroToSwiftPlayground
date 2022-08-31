@@ -8,3 +8,11 @@ var MySecondVariable = "and look I added two strings together"
 
 var MyThirdVariable = MyFirstVariable + MySecondVariable
 print(MyThirdVariable)
+var MyFourthVariable: String
+MyFourthVariable = "Hello, "
+
+var MyFifthVariable = "my name is "
+
+var MySixthVaraible = "Kaylene"
+var MySeventhVariable = MyFourthVariable + MyFifthVariable + MySixthVaraible
+print(MySeventhVariable)
