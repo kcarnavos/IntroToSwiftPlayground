@@ -1,5 +1,6 @@
 import UIKit
 import Security
+import Darwin
 
 var myFirstVariable: String
 myFirstVariable = "I've created my first variable"
@@ -27,5 +28,14 @@ print(appState)
 var numberOne = 5
 var numberTwo = 7
 var comparasion = numberOne > numberTwo
+
+var greetingOne: String
+greetingOne = "Aloha"
+var greetingTwo: String
+greetingTwo = "Aloha"
+
+var greetingComparasion = greetingOne == greetingTwo
+print(greetingComparasion)
+
 
 
