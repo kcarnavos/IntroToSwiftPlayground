@@ -1,18 +1,31 @@
 import UIKit
+import Security
 
-var MyFirstVariable: String
-MyFirstVariable = "I've created my first variable"
+var myFirstVariable: String
+myFirstVariable = "I've created my first variable"
 
 //We're going to do something with strings
-var MySecondVariable = "and look I added two strings together"
+var mySecondVariable = "and look I added two strings together"
 
-var MyThirdVariable = MyFirstVariable + MySecondVariable
-print(MyThirdVariable)
-var MyFourthVariable: String
-MyFourthVariable = "Hello, "
+var myThirdVariable = myFirstVariable + mySecondVariable
+print(myThirdVariable)
+var myFourthVariable: String
+myFourthVariable = "Hello, "
 
-var MyFifthVariable = "my name is "
+var myFifthVariable = "my name is "
 
-var MySixthVaraible = "Kaylene"
-var MySeventhVariable = MyFourthVariable + MyFifthVariable + MySixthVaraible
-print(MySeventhVariable)
+var mySixthVaraible = "Kaylene"
+var mySeventhVariable = myFourthVariable + myFifthVariable + mySixthVaraible
+print(mySeventhVariable)
+
+// Assignment #2 Introduction to True and False
+var appState = false
+
+print(appState)
+
+//Comparing variable using > (greater than) or < (less than)
+var numberOne = 5
+var numberTwo = 7
+var comparasion = numberOne > numberTwo
+
+
